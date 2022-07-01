@@ -639,14 +639,6 @@ h3 {
   display: flex;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -862,6 +854,11 @@ body {
   body {
     background-image: url("./assets/bg-header-mobile.png");
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
 
 .hover\:text-strongCyan:hover {
