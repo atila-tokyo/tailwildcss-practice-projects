@@ -1,2 +1,2 @@
 # tailwildcss-practice-projects
-![](photo-gallery tailwind.gif)
+![](photo-gallery_tailwind.gif)
