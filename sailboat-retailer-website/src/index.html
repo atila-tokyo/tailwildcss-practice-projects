@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
@@ -11,10 +18,10 @@
     <!-- Main Section -->
     <section id="main">
         <!-- Main Container -->
-        <div class="container max-w-6xl mx-auto px-6 py-12">
+        <div class="container max-w-6xl mx-auto px-6 py-4">
             <!-- Logo/Menu Container -->
             <nav class="flex items-center justify-between font-bold text-white">
-                <img src="assets/logo-transparent.svg" alt="">
+                <img src="assets/white-logo-transparent.svg" alt="">
                 <!-- Menu -->
                 <div class="hidden h-10 font-alata md:flex md:space-x-8">
                     <div class="group">
@@ -28,11 +35,44 @@
                     <div class="group">
                         <a href="#">Latest Arrivals</a>
                         <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
-                    </div>
-                    
+                    </div>  
                 </div>
+                <!-- Hamburger menu -->
             </nav>
+            <!-- Mobile Menu -->
+            <div class="max-w-6lg text-center mt-32 mb-32 p-4 font-sans text-size-5xl text-white uppercase border-4 md:p-5 md:m-32 md:mx-0 md:text-6xl">
+                The Best Nautic Lifestyle 
+            </div>
         </div>
     </section>
+    <!-- Services Section -->
+    <section id="services">
+        <!-- Services Container -->
+        <div class="relative container flex flex-col max-w-6xl 
+                    mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
+            <!-- Service Image -->
+            <img src="./assets/sail1-sm.jpeg" class="">
+            <!-- Text Container -->
+            <div class="top-48 pr-20 mr-20 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
+                <h5 class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 
+                           uppercase md:text-5xl md:mt-0 md:text-left">
+                    Variety of Options        
+                </h5>
+                <p class="max-w-md">We offer the best class of boats available in the market to make your experience the most safe and enjoyable possible</p>
+            </div>
+        </div>
+    </section>
+    <!-- Aggregated Services -->
+    <div class="container max-w-6xl mx-auto my-32 px-6 text-gray-900 md:px-0">
+        <!-- Services Header -->
+        <div class="flex justify-center mb-20 md:justify-between">
+            <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl hover:bg-black hover:text-white">
+                OUR SERVICES
+            </h2>
+            <button class="hidden px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black font-alata hover:bg-black hover:text-white md:block">
+                See all
+            </button>
+        </div>
+    </div>
 </body>
 </html>

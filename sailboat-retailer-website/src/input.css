@@ -4,7 +4,7 @@
 
 #main {
   /* the path for the folder is compiled from the css folder */
-  background-image: url("../src/assets/sailboat-1440x500.jpeg");
+  background-image: url("../src/assets/sailing_cover.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
