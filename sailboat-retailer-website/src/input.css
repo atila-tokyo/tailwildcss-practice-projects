@@ -1,3 +1,18 @@
-@tailwindcss base;
-@tailwindcss components;
-@tailwindcss utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main {
+  /* the path for the folder is compiled from the css folder */
+  background-image: url("../src/assets/sailboat-1440x500.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #main {
+    background-image: url("../src/assets/mobile/sail-cover-mobile.jpeg");
+    background-repeat: center;
+    background-size: cover;
+  }
+}
