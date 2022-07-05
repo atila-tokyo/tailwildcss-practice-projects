@@ -10,7 +10,7 @@
 
 #main {
   /* the path for the folder is compiled from the css folder */
-  background-image: url("../src/assets/desktop/sailing_cover.jpeg");
+  background-image: url("../src/assets/desktop/sailing_cover_gradient.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
